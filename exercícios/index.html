@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+    <link rel="stylesheet" href="saiteestilo.css">
+</head>
+<body>
+    <h1>testando o tamanho das midias em html</h1>
+    <p> vamo dinamizar a exibição de imagens</p>
+
+    <picture>
+        <source media="(max-width: 666px )" srcset="ex001/minhafotooficial.png" type="image/png">
+        <source media="(max-width:1066px )" srcset="ex001/minhafotomedia.png" type="image/png">
+        <img src="ex001/minhafotogrande.png" alt="imagem flexível">
+    </picture>
+    <audio preloud = "metadata" autoplay controls loop>
+    <source src = "ex001/Flying - Track Tribe.mp3" type ="audio/mpeg"></source>
+    <p>seu navegador é incopatível ór favor baixe o arquivo <a href = "ex001/Flying - Track Tribe.mp3"> clique bem aqui para baixar o arquivo </a></p>
+</audio>
+    
+</body>
+</html>
