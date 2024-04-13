@@ -1,21 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gochi+Hand&family=Handlee&display=swap');
+
+:root {
+   --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+   --fonte3: "Handlee", cursive;
+   --fonte4: "Bebas Neue", sans-serif; 
+
+}
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html, body {
     background-color: aquamarine;
     min-height: 100vh;
+    font-family: var(--fonte1);
+    
 
 }
 header {
     background-color: black;
     color: white;
     text-align: center;
+    font-family: var(--fonte4);
 }
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-size: 10vw;
 
 }
 header > p {
@@ -27,6 +42,9 @@ section {
     padding-bottom: 10vh;
     line-height: 1.9em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+    font-weight: bold;
 }
 section.normal {
     background-color: white;
@@ -38,8 +56,8 @@ section.imagem {
 }
 section.imagem > p {
     background-color: black;
-    width: 400px;
-}
+    display: inline-block;
+    padding:5px;
 a {
     color: white;
     text-decoration: none;
